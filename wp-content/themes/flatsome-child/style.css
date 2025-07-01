@@ -1,0 +1,398 @@
+/*
+Theme Name: Flatsome Child
+Description: Thicoder developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 4.0.0
+*/
+
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+/* SETTING */
+input,
+textarea {
+    padding: 0 15px !important;
+}
+p{
+	margin-bottom: 20px;
+}
+
+.section-title,
+.section-title-main,
+.wpcf7-submit,
+a.button {
+    margin: 0 !important
+}
+
+.mb-0 > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+.section-title-main,
+.ux-menu .ux-menu-title,
+.ux-menu .ux-menu-link a {
+    padding: 0 !important;
+}
+
+.section-title,
+.section-title-main {
+    border: none !important;
+}
+.section-title b{
+    display: none !important
+}
+.section-title.section-title-center{
+    justify-content: center
+}
+.wpcf7-spinner,
+.section-title a i,
+.post-item .is-divider {
+    display: none !important;
+}
+
+form input,
+form textarea {
+    margin-bottom: 0 !important
+}
+
+input,
+textarea,
+a.button,
+.ux-menu .ux-menu-title,
+.ux-menu .ux-menu-link a {
+    min-height: 40px !important;
+    height: 100% !important;
+    line-height: 40px !important
+}
+
+input,
+textarea,
+input:focus,
+textarea:focus,
+.button:hover {
+    box-shadow: none !important;
+}
+
+a.back-to-top {
+    width: 40px;
+    height: 40px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--fs-color-primary) !important;
+    border: none !important;
+}
+
+a.back-to-top:hover {
+    background-color: var(--fs-color-secondary) !important;
+}
+
+a.back-to-top i {
+    font-size: 22px !important;
+    color: #fff;
+}
+
+.row-small>.col,
+.row-small>.flickity-viewport>.flickity-slider>.col {
+	padding: 0 10px 20px;
+}
+.slider .flickity-slider > .col{
+    padding-bottom: 0 !important
+}
+.slick-slider .slick-arrow{
+    opacity: 0
+}
+.slider button.flickity-button[disabled]{
+	opacity: 0 !important;
+}
+.slider .flickity-button,
+.slick-slider .slick-arrow{
+	margin: 0 !important;
+	transform: unset;
+	min-height: unset;
+	width: 45px;
+	height: 45px !important;
+	bottom: unset;
+	top: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+    border: none;
+    position: absolute;
+	transform: translatey(-50%) !important;
+    padding: 0 !important
+}
+.slider:hover .flickity-prev-next-button{
+    transform: translatey(-50%) !important;
+}
+.slider:hover .flickity-button,
+.slick-slider:hover .slick-arrow{
+	opacity: 1 !important;
+}
+
+.slider .flickity-button svg,
+.slick-slider .slick-arrow svg{
+	border: none;
+	padding: 15px;
+	background: #eee;
+    color: var(--fs-color-primary);
+}
+.flickity-prev-next-button .arrow, 
+.slick-slider .slick-arrow .arrow{
+    fill: currentcolor !important;
+    transition: unset !important
+}
+.slider .flickity-button.previous {
+	left: 0;
+	right: unset !important;
+}
+.slider .flickity-button.next {
+	right: 0;
+	left: unset !important;
+}
+
+.slick-slider .slick-arrow.slick-prev,
+.slider.slider-nav-outside .flickity-button.previous{
+	left: -55px
+}
+.slick-slider .slick-arrow.slick-next,
+.slider.slider-nav-outside .flickity-button.next{
+	right: -55px
+}
+.slider .flickity-prev-next-button:hover svg,
+.slick-slider .slick-arrow:hover svg{
+	background-color: var(--fs-color-secondary) !important;
+    color: #fff;
+}
+.slick-dots{
+	margin: 0;
+	display: flex;
+	gap: 5px;
+	list-style-type: none;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+.slick-dots li{
+	margin: 0 !important;
+	width: 12px;
+	height: 12px;
+	background: #eee;
+	border-radius: 50%;
+}
+.slick-dots li.slick-active{
+	background: var(--fs-color-primary);
+}
+.slick-dots li button{
+	display: none;
+}
+.slick-slider .slick-slide > div > .col{
+	padding-bottom: 0 !important;
+	flex-basis: 100% !important;
+	max-width: 100% !important;
+}
+
+.row-full-width.slick-slider .slick-arrow.slick-prev{
+	left: 6%
+}
+.row-full-width.slick-slider .slick-arrow.slick-next{
+	right: 6%
+}
+.equal-height .slick-track{
+	display: flex !important;
+}
+.equal-height .slick-slide{
+	height: inherit !important;
+}
+.equal-height.slick-slider .slick-slide > div,
+.equal-height.slick-slider .slick-slide > div > .col,
+.equal-height.slick-slider .slick-slide > div > .col > .col-inner{
+	height: 100%
+}
+ol.flickity-page-dots{
+	position: relative;
+	margin: 20px 0 0 !important;
+	left: 0;
+	right: 0;
+	bottom: 0
+}
+ol.flickity-page-dots li{
+	border: none !important;
+	width: 12px !important;
+	height: 12px !important;
+	margin: 0 2.5px !important;
+	background-color: #dbdbdb !important;
+	opacity: 1 !important
+}
+ol.flickity-page-dots li.is-selected{
+	background-color: var(--fs-color-primary) !important;
+}
+
+.section-title a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+}
+
+.title-link .section-title {
+    display: inline;
+}
+.post-item:hover .post-title {
+    color: var(--fs-color-primary);;
+    transition: all .25s ease-in-out
+}
+.post-item a.plain {
+    color: currentcolor !important;
+    transition: unset !important;
+}
+button.f-thumbs__slide__button {
+    max-width: none !important;
+}
+.product-small.col .col-inner .box-text-products .product-title a, 
+.post-item .box-text .box-text-inner .from_the_blog_excerpt, 
+.post-item .box-text .box-text-inner .post-title a, 
+aside.widget li .post-title span{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.post-item .box-text .post-title a {
+    -webkit-line-clamp: 2;
+}
+.post-item .box-text .from_the_blog_excerpt {
+    -webkit-line-clamp: 3;
+}
+.nav-dropdown-has-arrow li.has-dropdown:after, .nav-dropdown-has-arrow li.has-dropdown:before{
+	content: none !important
+}
+.header-main .header-nav li.menu-item .sub-menu {
+	left: 0;
+	border: none;
+	box-shadow: 0px 1px 5px rgba(0, 0, 0, .3);
+	padding: 0;
+	border-radius: 10px;
+}
+.header-main .header-nav li.menu-item .sub-menu a {
+	margin: 0;
+	padding: 12px 15px;
+	border: none;
+	color: #fff;
+	font-weight: 400;
+    text-transform: none;
+    font-size: inherit;
+}
+.header-main .header-nav li.menu-item .sub-menu li:not(:last-child) a{
+	border-bottom: 1px solid #fff8;
+}
+.nav-dropdown{
+    display: flex;
+    flex-direction: column;
+}
+.nav-dropdown li{
+    position: relative;
+    width: 100% !important; 
+    display: block !important
+}
+.header-main .header-nav li.menu-item .sub-menu .sub-menu{
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 100%;
+    transform: translatey(15px);
+    transition: transform .25s ease-in-out, opacity .25s ease-in-out, visibility .25s ease-in-out;
+    opacity: 0;
+    visibility: hidden
+}
+.header-main .header-nav li.menu-item .sub-menu > li:hover > .sub-menu{
+    transform: translatey(0);
+    opacity: 1;
+    visibility: visible
+}
+
+.header-main .header-nav li.menu-item .sub-menu{
+    background-color: var(--fs-color-primary) !important;
+}
+.entry-content figure{
+    margin-bottom: 20px;
+}
+.entry-content figure img{
+    margin: 0
+}
+.entry-content > p > img{
+    margin: 0 !important
+}
+.entry-content h2{
+    font-size: 26px;
+	color: var(--fs-color-primary);
+}
+.entry-content h3{
+    font-size: 22px;
+}
+.entry-content h4{
+    font-size: 18px;
+}
+/*  */
+.header-main  .container{
+    max-width: 1340px;
+}
+.logo-left .logo {
+    margin-right: 0px;
+}
+.header-nav.nav-left{
+    justify-content: center;
+    padding: 0 40px;
+}
+.header-nav > li.menu-item{
+    border-right: 1px solid #fff;
+    flex: 1
+}
+.header-nav > li.menu-item:last-child{
+    border: none;
+}
+.header-nav li.menu-item a{
+    padding: 0;
+    font-size: 20px;
+    padding: 0 20px;
+    width: 100%;
+    justify-content: center;
+}
+.header-nav.nav>li.menu-item {
+    margin: 0
+}
+.header-nav a.button{
+    border: none;
+    padding: 0 35px;
+    height: 50px !important;
+    line-height: 54px !important;
+    font-size: 18px;
+}
+a.button{
+    font-size: 16px;
+}
+.img-border img{
+    border-radius: 16px;
+}
+/* CSS TABLE & MOBILE */
+@media (max-width: 849px) {
+    .off-canvas-left .mfp-content,
+    .off-canvas-right .mfp-content {
+        background-color: #fff !important;
+    }
+}
+
+/* CSS TABLET */
+@media (min-width: 549.1px) and (max-width: 849px) {}
+
+/* CSS MOBILE */
+@media (max-width: 549px) {
+
+    /*  CSS GLOWBAL */
+    .off-canvas-left .mfp-content {
+        width: calc(100vw - 65px);
+    }
+
+    /* END CSS GLOWBAL */
+}
